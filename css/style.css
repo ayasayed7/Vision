@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+/* start header */
+header{
+    position: relative;
+}
+.navbar {
+    height: 80px;
+    width: 940px;
+    padding: 0;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    z-index: 100;
+    right: 30px;
+    left: 30px;
+    
+    
+}
+.img-nav{
+    width: 100px;
+    margin-top: -22px;
+}
+
+.btnnav{
+    background-color: #73BE44;
+    color: white;
+    padding: 10px 21px;
+    border-radius: 25px;
+    border: none;
+}
+
+
+#navbarSupportedContent{
+    background-color: white;
+    padding: 10px 10px 10px 0px;
+
+}
+
+
+
+.carousel-item{
+    /* height: 100vh; */
+    /* min-height: 300px; */
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+.carousel-caption{
+    text-align: start;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+}
+
+.carousel-caption h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #63C525;
+    padding-bottom: 20px;
+}
+.carousel-caption p{
+    width: 75%;
+    font-weight: 400;
+
+    padding-bottom: 20px;
+
+}
+
+.carousel-caption button{
+    border-radius: 24px;
+    padding: 9px 34px;
+}
+
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* end header  */
+
+
+
+/* start من نحن  */
+
+.sec-2{
+    background-image: url("/images/Vision/Mask\ Group\ 6.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    /* height: 520px; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.img2{
+    width: 300px;
+    float: left;
+}
+.sect-2 h1{
+    color: #73BE44;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.sect-2 p{
+    width: 80%;
+}
+
+/* end من نحن  */
+
+
+
+/* start خدماتنا */
+
+.sec-3{
+    background-image: url("/images/Vision/Group 233.png");
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: cover;
+    height: 600px;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.img3{
+    width: 170px;
+}
+
+.Services{
+    padding-top: 14%;
+}
+
+/* end خدماتنا */
+
+
+
+/* start عملائنا */
+
+.sec-4{
+    background-image: url("/images/Vision/Group 235.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 400px;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+
+.sec-4 h1{
+    color: #73BE44;
+}
+
+.center{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #73BE44;
+    border-radius: 20px;
+}
+
+/* end عملائنا */
+
+
+
+/* start تواصل معنا */
+
+.c-u{
+    background:  linear-gradient(rgba(0, 0, 0, 76%), rgba(0, 0, 0, 76%)), url("/images/Vision/photo.png") fixed center center;    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    /* height: 400px; */
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+
+.c-u-btn{
+    padding: 8px 64px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #73BE44;
+}
+.c-u-btn:hover{
+    background-color: #397513;
+    color: #FFFFFF;
+}
+
+/* end تواصل معنا */
+
+
+
+/* start اراء العملاء  */
+
+.sec-6 h1{
+    color: #73BE44;
+}
+
+.cardy{
+    box-shadow: -5px 8px #73BE44;
+    border-radius: 20px;
+}
+
+
+.carousel-indicators button.btns {
+    background-color: darkslategray;
+}
+
+.carousel-indicators button.active {
+    background-color: #73BE44;
+}
+
+
+/* End اراء العملاء  */
+
+
+
+
+/* start احدث الاخبار  */
+
+.sec-7{
+    background-image: url("/images/Vision/Group 237.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    /* height: 600px; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body p{
+    font-size: 14px;
+}
+.card-body h6{
+    color: #73BE44;
+}
+.btn-7{
+    padding: 8px 34px;
+    border-radius: 22px;
+    color: #FFFFFF;
+    background-color: #73BE44;
+}
+.btn-7:hover, .btn-8:hover{
+    background-color: #397513;
+    color: #FFFFFF;
+}
+
+/* end احدث الاخبار  */
+
+
+
+
+/* start اهم الاسئلة  */
+
+.sec-8{
+    background-image: url("/images/Vision/Group 238.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 600px; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-8 h1{
+    color: #73BE44;
+    font-weight: 900;
+}
+.accordion{
+    width: 690px;
+}
+
+.accordion-button::after{
+    width: 0;
+}
+.svg-inline--fa {
+    margin-right: 330px;
+}
+
+.accordion {
+    --bs-accordion-active-color: #ffff;
+    --bs-accordion-active-bg: #73BE44;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+}
+
+.btn-8{
+    padding: 8px 64px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #73BE44;
+}
+
+/* end اهم الاسئلة  */
+
+
+.justify{
+    text-align: justify;
+}
+
+
+footer{
+    background-image: url("/images/Vision/Group 239.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    height: 540px;
+    /* height: 100%; */
+    
+}
+
+footer img{
+    width: 170px;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@-webkit-keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes come-in {
+  0% {
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
+    opacity: 0;
+  }
+  30% {
+    -webkit-transform: translateX(-50px) scale(0.4);
+            transform: translateX(-50px) scale(0.4);
+  }
+  70% {
+    -webkit-transform: translateX(0px) scale(1.2);
+            transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translatey(0px) scale(1);
+            transform: translatey(0px) scale(1);
+    opacity: 1;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #eaedf2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.floating-container {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  margin: 35px 25px;
+}
+.floating-container:hover {
+  height: 300px;
+}
+.floating-container:hover .floating-button {
+  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  -webkit-transform: translatey(5px);
+          transform: translatey(5px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.floating-container:hover .element-container .float-element:nth-child(1) {
+  -webkit-animation: come-in 0.4s forwards 0.2s;
+          animation: come-in 0.4s forwards 0.2s;
+}
+.floating-container:hover .element-container .float-element:nth-child(2) {
+  -webkit-animation: come-in 0.4s forwards 0.4s;
+          animation: come-in 0.4s forwards 0.4s;
+}
+.floating-container:hover .element-container .float-element:nth-child(3) {
+  -webkit-animation: come-in 0.4s forwards 0.6s;
+          animation: come-in 0.4s forwards 0.6s;
+}
+.floating-container .floating-button {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: #2cb3f0;
+  bottom: 0;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  line-height: 65px;
+  text-align: center;
+  font-size: 23px;
+  z-index: 100;
+  box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.floating-container .float-element {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 15px auto;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  line-height: 50px;
+  z-index: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+  vertical-align: middle;
+  font-size: 16px;
+}
+.floating-container .float-element:nth-child(1) {
+  background: #42A5F5;
+  box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+}
+.floating-container .float-element:nth-child(2) {
+  background: #4CAF50;
+  box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
+}
+.floating-container .float-element:nth-child(3) {
+  background: #FF9800;
+  box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        right: 30px;
+        left: 30px;
+        width: auto;
+    }
+    .carousel-caption{
+        text-align: center;
+        top: 40%;
+    }
+    .carousel-caption p{
+        width: auto;
+    }
+    
+    .img2{
+        width: 200px;
+        float: none;
+    }
+    .sect-2 p{
+        width: auto;
+    }
+    .sect-2{
+        text-align: center ;
+        
+    }
+
+    .img3{
+        width: 110px;
+    }
+    .Services{
+        padding-top: 35%;
+    }
+    .center{
+        height: 435px;
+    }
+    .accordion{
+        width: auto;
+    }
+
+    .svg-inline--fa {
+        margin-right: auto;
+    }
+    .accordion-button{
+        font-size: 15px;
+    }
+}
